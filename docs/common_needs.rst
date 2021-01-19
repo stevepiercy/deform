@@ -338,6 +338,8 @@ When ``"readonly": "readonly"`` is one of the items in a dict passed into the ``
 ``readonly`` is supported by most form controls, but not all.
 Deform adds some logic to add read-only support for a few of those form controls, as described below.
 
+View a demonstration of ``readonly`` in HTML form control attributes < https://deformdemo.pylonsproject.org/readonly_html/>`_.
+
 ``CheckboxWidget`` and ``CheckboxChoiceWidget``
     Due to the nature of how checkbox values are processed, the ``readonly`` attribute has no effect.
     To achieve a read-only behavior, pass in ``attributes={"onclick": "return false;"}``.
